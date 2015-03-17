@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C60A7A1AB8843A00728ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C60A791AB8843A00728ED8 /* AppDelegate.swift */; };
+		84C60A7C1AB8843A00728ED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C60A7B1AB8843A00728ED8 /* ViewController.swift */; };
+		84C60A7F1AB8843A00728ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C60A7D1AB8843A00728ED8 /* Main.storyboard */; };
+		84C60A811AB8843A00728ED8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C60A801AB8843A00728ED8 /* Images.xcassets */; };
+		84C60A841AB8843A00728ED8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C60A821AB8843A00728ED8 /* LaunchScreen.xib */; };
+		84C60A901AB8843A00728ED8 /* LarekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C60A8F1AB8843A00728ED8 /* LarekTests.swift */; };
+		84C60A9A1AB884A600728ED8 /* s81994622.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C60A991AB884A600728ED8 /* s81994622.jpg */; };
+		84C60A9C1AB8883700728ED8 /* day.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C60A9B1AB8883700728ED8 /* day.png */; };
+		84C60A9E1AB8883E00728ED8 /* night.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C60A9D1AB8883E00728ED8 /* night.png */; };
+		84C60AA01AB889F300728ED8 /* Larek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C60A9F1AB889F300728ED8 /* Larek.swift */; };
+		84C60AA21AB88C3700728ED8 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C60AA11AB88C3700728ED8 /* Day.swift */; };
+		84C60AA41AB8923C00728ED8 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C60AA31AB8923C00728ED8 /* Price.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C60A8A1AB8843A00728ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C60A6C1AB8843A00728ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C60A731AB8843A00728ED8;
+			remoteInfo = Larek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C60A741AB8843A00728ED8 /* Larek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Larek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C60A781AB8843A00728ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C60A791AB8843A00728ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84C60A7B1AB8843A00728ED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84C60A7E1AB8843A00728ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C60A801AB8843A00728ED8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84C60A831AB8843A00728ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84C60A891AB8843A00728ED8 /* LarekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LarekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C60A8E1AB8843A00728ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C60A8F1AB8843A00728ED8 /* LarekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LarekTests.swift; sourceTree = "<group>"; };
+		84C60A991AB884A600728ED8 /* s81994622.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s81994622.jpg; sourceTree = "<group>"; };
+		84C60A9B1AB8883700728ED8 /* day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = day.png; sourceTree = "<group>"; };
+		84C60A9D1AB8883E00728ED8 /* night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = night.png; sourceTree = "<group>"; };
+		84C60A9F1AB889F300728ED8 /* Larek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Larek.swift; sourceTree = "<group>"; };
+		84C60AA11AB88C3700728ED8 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		84C60AA31AB8923C00728ED8 /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		84F5D5191AB896830071655D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C60A711AB8843A00728ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C60A861AB8843A00728ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C60A6B1AB8843A00728ED8 = {
+			isa = PBXGroup;
+			children = (
+				84C60A761AB8843A00728ED8 /* Larek */,
+				84C60A8C1AB8843A00728ED8 /* LarekTests */,
+				84C60A751AB8843A00728ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C60A751AB8843A00728ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C60A741AB8843A00728ED8 /* Larek.app */,
+				84C60A891AB8843A00728ED8 /* LarekTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C60A761AB8843A00728ED8 /* Larek */ = {
+			isa = PBXGroup;
+			children = (
+				84C60A791AB8843A00728ED8 /* AppDelegate.swift */,
+				84C60A7B1AB8843A00728ED8 /* ViewController.swift */,
+				84C60A9F1AB889F300728ED8 /* Larek.swift */,
+				84C60AA11AB88C3700728ED8 /* Day.swift */,
+				84C60AA31AB8923C00728ED8 /* Price.swift */,
+				84C60A7D1AB8843A00728ED8 /* Main.storyboard */,
+				84C60A801AB8843A00728ED8 /* Images.xcassets */,
+				84C60A821AB8843A00728ED8 /* LaunchScreen.xib */,
+				84C60A771AB8843A00728ED8 /* Supporting Files */,
+			);
+			path = Larek;
+			sourceTree = "<group>";
+		};
+		84C60A771AB8843A00728ED8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C60A9D1AB8883E00728ED8 /* night.png */,
+				84C60A9B1AB8883700728ED8 /* day.png */,
+				84C60A991AB884A600728ED8 /* s81994622.jpg */,
+				84F5D5191AB896830071655D /* MyPlayground.playground */,
+				84C60A781AB8843A00728ED8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C60A8C1AB8843A00728ED8 /* LarekTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C60A8F1AB8843A00728ED8 /* LarekTests.swift */,
+				84C60A8D1AB8843A00728ED8 /* Supporting Files */,
+			);
+			path = LarekTests;
+			sourceTree = "<group>";
+		};
+		84C60A8D1AB8843A00728ED8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C60A8E1AB8843A00728ED8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C60A731AB8843A00728ED8 /* Larek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C60A931AB8843A00728ED8 /* Build configuration list for PBXNativeTarget "Larek" */;
+			buildPhases = (
+				84C60A701AB8843A00728ED8 /* Sources */,
+				84C60A711AB8843A00728ED8 /* Frameworks */,
+				84C60A721AB8843A00728ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Larek;
+			productName = Larek;
+			productReference = 84C60A741AB8843A00728ED8 /* Larek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C60A881AB8843A00728ED8 /* LarekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C60A961AB8843A00728ED8 /* Build configuration list for PBXNativeTarget "LarekTests" */;
+			buildPhases = (
+				84C60A851AB8843A00728ED8 /* Sources */,
+				84C60A861AB8843A00728ED8 /* Frameworks */,
+				84C60A871AB8843A00728ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C60A8B1AB8843A00728ED8 /* PBXTargetDependency */,
+			);
+			name = LarekTests;
+			productName = LarekTests;
+			productReference = 84C60A891AB8843A00728ED8 /* LarekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C60A6C1AB8843A00728ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Denis Aganin";
+				TargetAttributes = {
+					84C60A731AB8843A00728ED8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					84C60A881AB8843A00728ED8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 84C60A731AB8843A00728ED8;
+					};
+				};
+			};
+			buildConfigurationList = 84C60A6F1AB8843A00728ED8 /* Build configuration list for PBXProject "Larek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C60A6B1AB8843A00728ED8;
+			productRefGroup = 84C60A751AB8843A00728ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C60A731AB8843A00728ED8 /* Larek */,
+				84C60A881AB8843A00728ED8 /* LarekTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C60A721AB8843A00728ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C60A9A1AB884A600728ED8 /* s81994622.jpg in Resources */,
+				84C60A7F1AB8843A00728ED8 /* Main.storyboard in Resources */,
+				84C60A841AB8843A00728ED8 /* LaunchScreen.xib in Resources */,
+				84C60A9E1AB8883E00728ED8 /* night.png in Resources */,
+				84C60A9C1AB8883700728ED8 /* day.png in Resources */,
+				84C60A811AB8843A00728ED8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C60A871AB8843A00728ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C60A701AB8843A00728ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C60A7C1AB8843A00728ED8 /* ViewController.swift in Sources */,
+				84C60AA01AB889F300728ED8 /* Larek.swift in Sources */,
+				84C60AA21AB88C3700728ED8 /* Day.swift in Sources */,
+				84C60AA41AB8923C00728ED8 /* Price.swift in Sources */,
+				84C60A7A1AB8843A00728ED8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C60A851AB8843A00728ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C60A901AB8843A00728ED8 /* LarekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C60A8B1AB8843A00728ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C60A731AB8843A00728ED8 /* Larek */;
+			targetProxy = 84C60A8A1AB8843A00728ED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C60A7D1AB8843A00728ED8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C60A7E1AB8843A00728ED8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C60A821AB8843A00728ED8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C60A831AB8843A00728ED8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C60A911AB8843A00728ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C60A921AB8843A00728ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C60A941AB8843A00728ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Larek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		84C60A951AB8843A00728ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Larek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		84C60A971AB8843A00728ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LarekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Larek.app/Larek";
+			};
+			name = Debug;
+		};
+		84C60A981AB8843A00728ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LarekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Larek.app/Larek";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C60A6F1AB8843A00728ED8 /* Build configuration list for PBXProject "Larek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C60A911AB8843A00728ED8 /* Debug */,
+				84C60A921AB8843A00728ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C60A931AB8843A00728ED8 /* Build configuration list for PBXNativeTarget "Larek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C60A941AB8843A00728ED8 /* Debug */,
+				84C60A951AB8843A00728ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C60A961AB8843A00728ED8 /* Build configuration list for PBXNativeTarget "LarekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C60A971AB8843A00728ED8 /* Debug */,
+				84C60A981AB8843A00728ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C60A6C1AB8843A00728ED8 /* Project object */;
+}
